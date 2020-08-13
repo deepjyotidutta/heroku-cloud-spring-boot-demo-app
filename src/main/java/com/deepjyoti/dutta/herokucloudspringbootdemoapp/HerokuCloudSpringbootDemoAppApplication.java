@@ -19,5 +19,4 @@ public class HerokuCloudSpringbootDemoAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(HerokuCloudSpringbootDemoAppApplication.class, args);
 	}
-
 }
