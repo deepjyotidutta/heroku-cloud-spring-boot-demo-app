@@ -15,6 +15,12 @@ public class HerokuCloudSpringbootDemoAppApplication {
     String home() {
       return "Hello World!";
     }
+    
+    @RequestMapping("/bye/")
+    @ResponseBody
+    String logout() {
+      return "Bye!";
+    }
 
 	public static void main(String[] args) {
 		SpringApplication.run(HerokuCloudSpringbootDemoAppApplication.class, args);
